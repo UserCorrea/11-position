@@ -32,12 +32,16 @@
     </nav>
     </header>
 <div class="wrapper">
+
+<main class="main-content">
 <p>The parent list item needs <code>position: relative</code> so that the child submenu can be positioned with <code>position: absolute relative</code> to it — not relative to the entire page.
 </p>
 <p>The submenu (a nested <code>ul</code> inside one of the <code>li</code> elements) is hidden by default with <code>display: none</code>. When the user hovers over the parent list item, the submenu is shown with <code>display: block</code>.
 </p>
 <p>The key concept: <code>position: absolute</code> places an element relative to its nearest ancestor that has <code>position: relative</code>. Without that ancestor, it positions relative to the page — which is almost never what you want.
 </p>
+
+</main>
 </div>
 </body>
 

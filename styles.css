@@ -1,33 +1,43 @@
 html {
     background-color: beige;
+    margin: 0 0;
 }
     
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
 .header{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 
 
 .site-nav {
     background-color: rgb(0, 171, 114);
-    
+   
 
 }
 .site-links {
+    margin: 0 0;
     display: flex;
     list-style-type: none;
     padding: 0;
 }
+
 .site-link {
     display: block;
     padding: 10px 20px;
     color: antiquewhite;
     text-decoration: none;
     
+    
 }
 
 .site-link:hover {
     background-color: brown;
 }
+
 .dropdown {
 position: absolute;
 background-color: rgb(255, 233, 214);
@@ -40,7 +50,7 @@ display: none;
 
 .dropdown-link {
     display:block;
-    padding: 10px 30;
+    padding: 10px 30px;
     color: 777;  
     text-decoration: none;  
 }
@@ -50,11 +60,13 @@ display: none;
 }
 .has-dropdown:hover .dropdown{
     display: block;
+    position: absolute;
 }
 
 code {
     color: purple; 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family:'Times New Roman', Times, serif;
     background-color: rgb(241, 144, 214); 
-    padding: 2px;
+    padding: 4px;
+    border-radius: 6px 6px 6px 6px;
 }
